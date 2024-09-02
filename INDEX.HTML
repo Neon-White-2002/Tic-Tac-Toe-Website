@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TIC-TAC-TOE (GAME)</title>
+
+        <!-- STYLE-SHEET -->
+        <link rel="stylesheet" href="STYLE.CSS">
+
+        <!-- PAGE - LOGO -->
+        <link rel="icon" href="page-logo.png" type="img/icon">
+
+        <!-- FONT (BOX-ICON) -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="game-container">
+            <div class="box-container">
+                <div class="box" style="border-top: 0; border-left: 0;"></div>
+                <div class="box" style="border-top: 0;"></div>
+                <div class="box" style="border-top: 0; border-right: 0;"></div>
+                <!--  -->
+
+                <div class="box" style="border-left: 0;"></div>
+                <div class="box"></div>
+                <div class="box" style="border-right: 0;"></div>
+                <!--  -->
+                <div class="box" style="border-bottom: 0; border-left: 0;"></div>
+                <div class="box" style="border-bottom: 0;"></div>
+                <div class="box" style="border-bottom: 0; border-right: 0;"></div>
+            </div>
+
+            <div class="game-info">
+                <h3>Welcome, to TIC-TAC-TOE</h3>
+
+                <p>
+                    <span id="x-player">
+                        <i class='bx bx-play'></i>
+                        Turn of, 'X'
+                    </span>
+
+                    <span id="o-player">Turn of, '0'</span>
+                </p>
+
+                <button type="reset" id="reset-button">RESET</button>
+            </div>
+        </div>
+
+        <div class="win_moment" id="win_moment">
+            <img src="Celebration.gif" alt="">
+        </div>
+
+        <script src="SCRIPT.JS"></script>
+    </body>
+</html>
